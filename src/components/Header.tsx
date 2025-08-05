@@ -37,11 +37,6 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className={`w-10 h-10 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center ${
-              isDark ? 'shadow-lg shadow-blue-500/25' : 'shadow-lg shadow-blue-500/25'
-            }`}>
-              <span className="text-white font-bold text-lg">J</span>
-            </div>
             <span className={`font-bold text-xl ${isDark ? 'text-white' : 'text-gray-900'}`}>
               Jizzakh Hotels
             </span>
@@ -65,9 +60,7 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Controls */}
           <div className="flex items-center space-x-4">
-            {/* Language Selector */}
             <div className="relative">
               <button
                 onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
@@ -106,7 +99,6 @@ export default function Header() {
               )}
             </div>
 
-            {/* Theme Toggle */}
             <button
               onClick={() => dispatch(toggleTheme())}
               className={`p-2 rounded-lg transition-all duration-200 ${
@@ -116,7 +108,6 @@ export default function Header() {
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
 
-            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`md:hidden p-2 rounded-lg transition-all duration-200 ${
@@ -128,7 +119,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className={`md:hidden py-4 border-t ${isDark ? 'border-gray-800' : 'border-gray-200'}`}>
             <nav className="flex flex-col space-y-2">
