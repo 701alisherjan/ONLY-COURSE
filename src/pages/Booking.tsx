@@ -93,7 +93,7 @@ export default function Booking() {
                 firstName: '',
                 lastName: '',
                 email: '',
-                phone: '',
+                phone: '+998',
                 specialRequests: ''
               });
             }}

@@ -7,6 +7,179 @@
       "phone": "942457890",
       "subject": "inquiry",
       "message": "Salomaat"
+    },
+    {
+      "id": "b5d2",
+      "name": "Alisherjan",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "subject": "complaint",
+      "message": "gaaaaaaaaaaaaaay"
+    },
+
+    {
+      "id": "2648",
+      "name": "Alisherjan",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "subject": "complaint",
+      "message": "yoq"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "05d3",
+      "checkIn": "2025-12-06",
+      "checkOut": "2025-12-07",
+      "guests": 1,
+      "rooms": 1,
+      "firstName": "Alisher",
+      "lastName": "Abdullayev",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "specialRequests": "sdgsafdfsadfsfsd",
+      "hotel": "Jigar Hotel",
+      "pricePerNight": 500000,
+      "totalDays": 1,
+      "totalPrice": 500000
+    },
+    {
+      "id": "8bc4",
+      "checkIn": "2025-08-06",
+      "checkOut": "2025-09-06",
+      "guests": 1,
+      "rooms": 1,
+      "firstName": "Alisher",
+      "lastName": "Abdullayev",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "specialRequests": "A",
+      "hotelId": 1,
+      "totalPrice": 15500000
+    },
+    {
+      "id": "470c",
+      "checkIn": "2025-08-06",
+      "checkOut": "2025-08-10",
+      "guests": 1,
+      "rooms": 1,
+      "firstName": "Alisher",
+      "lastName": "Abdullayev",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "specialRequests": "Salomaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaat",
+      "hotelId": 1,
+      "totalPrice": 2000000
+    },
+    {
+      "id": "333d",
+      "checkIn": "2025-08-10",
+      "checkOut": "2025-08-11",
+      "guests": 1,
+      "rooms": 1,
+      "firstName": "Alisher",
+      "lastName": "Abdullayev",
+      "email": "abdulayevalisher987@gmail.com",
+      "phone": "942457890",
+      "specialRequests": "saaaaaaaaaalom",
+      "hotelId": 1,
+      "totalPrice": 500000
+    }
+  ],
+  
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Xona 1",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Toshkent, Uzbekistan",
+      "rating": 4.5,
+      "price": 500000,
+      "amenities": {
+        "cleanliness": "Yuqori",
+        "tv": true,
+        "airConditioner": true,
+        "kitchen": false,
+        "wifi": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Xona 2",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Samarqand, Uzbekistan",
+      "rating": 4.7,
+      "price": 650000,
+      "amenities": {
+        "cleanliness": "Yuqori",
+        "tv": true,
+        "airConditioner": true,
+        "kitchen": true,
+        "wifi": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Xona 3",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Buxoro, Uzbekistan",
+      "rating": 4.3,
+      "price": 480000,
+      "amenities": {
+        "cleanliness": "O'rtacha",
+        "tv": true,
+        "airConditioner": false,
+        "kitchen": false,
+        "wifi": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "Xona 4",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Xiva, Uzbekistan",
+      "rating": 4.8,
+      "price": 720000,
+      "amenities": {
+        "cleanliness": "Yuqori",
+        "tv": true,
+        "airConditioner": true,
+        "kitchen": true,
+        "wifi": true
+      }
+    },
+    {
+      "id": 5,
+      "name": " Xona 5",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Andijon, Uzbekistan",
+      "rating": 4.0,
+      "price": 400000,
+      "amenities": {
+        "cleanliness": "Yaxshi",
+        "tv": true,
+        "airConditioner": false,
+        "kitchen": false,
+        "wifi": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "  Xona 6",
+      "image": "https://via.placeholder.com/600x400",
+      "location": "Nukus, Uzbekistan",
+      "rating": 4.6,
+      "price": 550000,
+      "amenities": {
+        "cleanliness": "Yuqori",
+        "tv": true,
+        "airConditioner": true,
+        "kitchen": false,
+        "wifi": false
+      }
     }
   ]
+  
+
+
 }

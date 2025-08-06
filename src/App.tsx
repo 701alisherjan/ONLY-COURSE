@@ -11,6 +11,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Booking from './pages/Booking';
+import RoomsCard from './inpages/roomsCard';
 
 function AppContent() {
   const { isDark } = useSelector((state: RootState) => state.theme);
@@ -35,6 +36,7 @@ function AppContent() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path='/cardin' element={<RoomsCard/>}/>
           </Routes>
         </main>
         <Footer />

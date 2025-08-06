@@ -21,7 +21,6 @@ export default function Header() {
     { key: 'services', path: '/services' },
     { key: 'about', path: '/about' },
     { key: 'contact', path: '/contact' },
-    { key: 'booking', path: '/booking' }
   ];
 
   const languages = [
